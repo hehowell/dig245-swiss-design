@@ -1,2 +1,170 @@
 
 /* css */
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    color:black; 
+    background-color: rgba(50, 191, 208, 1); 
+}
+
+.top-buffer { margin-top:12px; }
+
+/* small */
+h1 {
+    font-size: 78px; 
+    line-height: 4rem; 
+}
+h6 {
+    padding-top: 85px;
+    font-size: 60%;
+}
+
+.the{
+    padding-top: 50px;
+}
+
+.baseSquare{
+    position: relative;
+    width: 58px;
+    height: 58px;
+    background: rgba(64, 121, 150, 1);
+}
+
+.blueSquare {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    background: rgba(64, 121, 150, 1);
+    transform: translateX(66px);
+}
+
+
+.square{
+    position: relative;
+    width: 58px;
+    height: 58px;
+    background: rgba(223, 225, 212, 1);
+    transform: translateX(66px);
+}
+
+
+/* medium */
+@media (min-width: 768px){
+    h1{
+        font-size: 108px; 
+        line-height: 6rem; 
+    }
+    h6 {
+        padding-top: 135px;
+        font-size: 90%;
+    }
+
+    .the{
+        padding-top: 80px;
+    }
+
+    .baseSquare{
+        position: relative;
+        width: 78px;
+        height: 78px;
+        background: rgba(64, 121, 150, 1);
+    }
+
+    .blueSquare{
+        position: relative;
+        width: 78px;
+        height: 78px;
+        background: rgba(64, 121, 150, 1);
+        transform: translateX(87px);
+    }
+
+    .square{
+        position: relative;
+        width: 78px;
+        height: 78px;
+        background: rgba(223, 225, 212, 1);
+        transform: translateX(87px);
+    }
+}
+
+/* large */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 152px; 
+        line-height: 8rem; 
+    }
+
+    h6 {
+        padding-top: 160px;
+        font-size: 100%;
+    }
+
+    .the{
+        padding-top: 80px;
+    }
+
+    .baseSquare{
+        position: relative;
+        width: 108px;
+        height: 108px;
+        background: rgba(64, 121, 150, 1);
+    }
+
+    .blueSquare{
+        position: relative;
+        width: 108px;
+        height: 108px;
+        background: rgba(64, 121, 150, 1);
+        transform: translateX(122px);
+    }
+
+    .square{
+        position: relative;
+        width: 108px;
+        height: 108px;
+        background: rgba(223, 225, 212, 1);
+        transform: translateX(122px);
+    }
+
+}
+
+/* Extra large */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 178px; 
+        line-height: 9rem; 
+    }
+
+    h6 {
+        padding-top: 180px;
+        font-size: 100%;
+    }
+
+    .the{
+        padding-top: 80px;
+    }
+
+    .baseSquare{
+        position: relative;
+        width: 128px;
+        height: 128px;
+        background: rgba(64, 121, 150, 1);
+    }
+
+    .blueSquare{
+        position: relative;
+        width: 128px;
+        height: 128px;
+        background: rgba(64, 121, 150, 1);
+        transform: translateX(142px);
+    }
+
+    .square{
+        position: relative;
+        width: 128px;
+        height: 128px;
+        background: rgba(223, 225, 212, 1);
+        transform: translateX(142px);
+    }
+
+}
